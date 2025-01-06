@@ -5,9 +5,11 @@ import { UserButton } from "@clerk/nextjs";
 const SetupPage = () => {
   return (
     <div className="p-4">
-      <Model title="Test" description="Test Desc" isOpen onClose={() => {}}>
+      {/* <Model title="Test" description="Test Desc" isOpen onClose={() => {}}>
         Children
-      </Model>
+        root Page 
+      </Model> */}
+      root pag e
     </div>
   );
 };
